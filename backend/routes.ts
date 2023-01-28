@@ -1,13 +1,13 @@
 import express from "express";
-import jwt from "jsonwebtoken"
+import jwt from "jsonwebtoken";
+
 import { AccountsModel } from "./models/accounts";
 import { BillsModel } from "./models/bills";
-import { GroupModel, GroupsModel } from "./models/groups"
+import { GroupModel, GroupsModel } from "./models/groups";
 
 import { UserModel } from "./models/users";
 import { isLoggedIn } from "./utils/isLoggedin";
 import { comparePassword, hashPassword } from "./utils/passwordUtils";
-
 
 const router = express.Router();
 
