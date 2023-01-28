@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto';
+}
+
+#groups-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 256px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+#my-groups-wrapper, #join-group-form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#group-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.group-card {
+    width: 220px;
+    box-shadow: black 0px 5px 15px;
+    padding: 32px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    cursor: pointer;
+    transition: 120ms linear;
+}
+
+.group-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+}
+
+#join-group-form, #creat-group-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+}
+
+#creat-group-form {
+    margin-bottom: 128px;
+}
+
+#join-group-form > :not(:last-child), #creat-group-form > :not(:last-child) {
+    margin-bottom: 16px;
+    height: 32px;
+}
+
+#join-group-button, #creat-group-button {
+    text-decoration: none;
+    border: none;
+    border-radius: 16px;
+    background-color: #2D88FF;
+    height: 32px;
+    width: 128px;
+    font-weight: bold;
+    color: white;
+}

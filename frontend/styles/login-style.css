@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto';
+}
+
+#login-wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 256px;
+    font-size: 24px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form > :not(:last-child) {
+    margin-bottom: 16px;
+}
+
+#login-form > input {
+    height: 32px;
+}
+
+#login-button {
+    text-decoration: none;
+    border: none;
+    border-radius: 16px;
+    background-color: #2D88FF;
+    height: 32px;
+    width: 128px;
+    font-weight: bold;
+    color: white;
+}

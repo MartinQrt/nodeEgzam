@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto';
+}
+
+#register-wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 256px;
+    font-size: 24px;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#register-form > input {
+    height: 32px;
+}
+
+#register-button {
+    text-decoration: none;
+    border: none;
+    border-radius: 16px;
+    background-color: #2d88ff;
+    height: 32px;
+    width: 128px;
+    font-weight: bold;
+    color: white;
+}
